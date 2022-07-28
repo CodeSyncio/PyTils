@@ -38,7 +38,7 @@ Python 3 with :
 Manual installing the script can be done by cloning this repository and making sure you have all modules from the above list. don't worry about needed folders or files, these will be automatically generated
 
 ```
-git clone ...
+git clone https://github.com/CodeSyncio/PyTils.git
 cd PyTils
 python3 pytils.py
 ```
