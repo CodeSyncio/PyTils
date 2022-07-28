@@ -4,6 +4,7 @@
 + [About](#about)
 + [Installing](#Installing)
 + [Usage](#usage)
++ + [Screenshots](#Screenshots)
 
 
 ## About
@@ -60,6 +61,6 @@ after that, restart the program and you should see "bot running". u can see bot 
 
 
 
-## screenshots
+## Screenshots
 
 ![mainscreen](bg.png)
