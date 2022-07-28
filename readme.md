@@ -4,7 +4,7 @@
 + [About](#about)
 + [Installing](#Installing)
 + [Usage](#usage)
-+ + [Screenshots](#Screenshots)
++ [Screenshots](#Screenshots)
 
 
 ## About
