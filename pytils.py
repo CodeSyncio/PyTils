@@ -696,4 +696,5 @@ class discordbotting():
 if __name__ == '__main__':
     global q
     q = Queue()
+    
     init.CheckValidy()
