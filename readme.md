@@ -62,4 +62,4 @@ after that, restart the program and you should see "bot running". u can see bot 
 
 ## screenshots
 
-![mainscreen](http://url/to/img.png)
+![mainscreen](bg.png)
