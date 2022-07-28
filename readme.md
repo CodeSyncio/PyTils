@@ -57,3 +57,9 @@ For the **discord selfbot** u need to put ur tokin in the **config.json** like t
 {"discordtoken": "Token Here"}
 ```
 after that, restart the program and you should see "bot running". u can see bot commands in the ***[15] Bot Commands*** option.
+
+
+
+## screenshots
+
+![mainscreen](http://url/to/img.png)
