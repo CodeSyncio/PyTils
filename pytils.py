@@ -1,6 +1,6 @@
 #<---VERSION HEADER--->
-FileVersion = "v0.0.3"           
-FileName = "yt and spotify downloader"   
+FileVersion = "v0.1.0"           
+FileName = "first public release :0"   
 
 #<---imports--->
 import asyncio
@@ -591,7 +591,27 @@ class discordbotting():
         async def shrug(ctx):
             await ctx.message.delete()
             await ctx.send("¯\_(ツ)_/¯")
+            
+        @bot.command()
+        async def disapprove(ctx):
+            await ctx.message.delete()
+            await ctx.send("ᇂ_ᇂ")
+            
+        @bot.command()
+        async def fu(ctx):
+            await ctx.message.delete()
+            await ctx.send("( ͡° ͜つ ͡°)╭∩╮")
         
+        @bot.command()
+        async def confused(ctx):
+            await ctx.message.delete()
+            await ctx.send("┐(ﾟ ～ﾟ )┌")
+            
+        @bot.command()
+        async def hi(ctx):
+            await ctx.message.delete()
+            await ctx.send("( ^_^)／")
+            
         @bot.command()
         async def ipup(ctx,ip):    
             await ctx.message.delete()
@@ -660,11 +680,18 @@ class discordbotting():
         print(Fore.CYAN+"<----------Commands---------->")
         print(Fore.BLUE+"Prefix = §")
         print(Fore.LIGHTBLUE_EX+'"shrug" - returns the ¯\_(ツ)_/¯ emoji')
+        print(Fore.LIGHTBLUE_EX+'"disapprove" - returns the ᇂ_ᇂ emoji')
+        print(Fore.LIGHTBLUE_EX+'"fu" - returns the ( ͡° ͜つ ͡°)╭∩╮ emoji')
+        print(Fore.LIGHTBLUE_EX+'"confused" - returns the ┐(ﾟ ～ﾟ )┌ emoji')
+        print(Fore.LIGHTBLUE_EX+'"hi" - returns the ( ^_^)／ emoji')
         print(Fore.LIGHTBLUE_EX+'"spam" - usage: spam <message> <times to spam> , spams a given message (ex: spam "hello" 20)')
         print(Fore.LIGHTBLUE_EX+'"ipup" - usage : ipup <ip>, returns info in chat about an ip (ex: ipup 1.1.1.1)')
+        print(Fore.LIGHTBLUE_EX+'"pfp" - usage : pfp <@user>, returns profile pic of a user (ex: pfp @CodeSyncio#7302)')
+        print(Fore.LIGHTBLUE_EX+'"purge" - usage : purge <purge amount>, deletes a given amount of msges (ex: purge 100)')
         print(Fore.MAGENTA+"press enter to return to main menu")
         ghinput = input()
         init.MainScreen()
+
 #<----------START----------> 
 if __name__ == '__main__':
     global q
