@@ -62,6 +62,7 @@ after that, restart the program and you should see "bot running". u can see bot 
 
 
 ## Screenshots
-
+Mainscreen:
 ![mainscreen](bg.png)
+Bot commands (currently)
 ![bot commands](currentcmds.png)
