@@ -63,6 +63,6 @@ after that, restart the program and you should see "bot running". u can see bot 
 
 ## Screenshots
 Mainscreen:
-![mainscreen](bg.png)
+![mainscreen](https://github.com/CodeSyncio/Pytils-optional-dependencies/raw/main/bg.png)
 Bot commands (currently)
-![bot commands](currentcmds.png)
+![bot commands](https://github.com/CodeSyncio/Pytils-optional-dependencies/raw/main/currentcmds.png)
