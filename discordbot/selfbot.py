@@ -130,7 +130,6 @@ def SelfBot(tokywoky,q):
         @bot.command()
         async def idtouser(ctx, id: int):
             await ctx.message.delete()
-            user = await bot.fetch_user(id)
             await ctx.send(f'***the id `{str(id)}` belongs to user <@{id}>***')
                 
         #<---starting the bot--->
@@ -155,6 +154,8 @@ def botinfo():
     print(Fore.LIGHTBLUE_EX+'"pfp" - usage : pfp <@user>, returns profile pic of a user (ex: pfp @CodeSyncio#7302)')
     print(Fore.LIGHTBLUE_EX+'"purge" - usage : purge <purge amount>, deletes a given amount of msges (ex: purge 100)')
     print(Fore.LIGHTBLUE_EX+'"loading" - usage : loading <action> <time in s>, shows a loading bar (ex: loading "eating" 120 )')
+    print(Fore.LIGHTBLUE_EX+'"idban" - usage : idban <userid> , used to ban users by id (ex: idban 697597420157)')
+    print(Fore.LIGHTBLUE_EX+'"idtouser" - usage : idtouser <userid> , get usernames with id(ex: idtouser 697597420157)')
     print(Fore.MAGENTA+"press enter to return to main menu")
     ghinput = input()
     mainscrn()
