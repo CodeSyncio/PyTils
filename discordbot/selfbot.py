@@ -107,6 +107,32 @@ def SelfBot(tokywoky,q):
             except:
                 pass
 
+        @bot.command()
+        async def idban( ctx, userid,reason=None):
+            await ctx.message.delete()
+            try:
+                id = int(userid)
+            except:
+                await ctx.send(f'*Sorry, the id `{userid}` could not be found*')
+                await asyncio.sleep(3)
+                await ctx.message.delete()
+
+            try:
+                await ctx.guild.ban(discord.Object(id), reason=reason)
+                msg =await ctx.send(f'*user <@{id}> has been sucessfully banned*')
+                await asyncio.sleep(3)
+                await msg.delete()
+            except:
+                msg =await ctx.send(f'*user could not be banned. do you have the needed permissions?*')
+                await asyncio.sleep(3)
+                await msg.message.delete()
+                
+        @bot.command()
+        async def idtouser(ctx, id: int):
+            await ctx.message.delete()
+            user = await bot.fetch_user(id)
+            await ctx.send(f'***the id `{str(id)}` belongs to user <@{id}>***')
+                
         #<---starting the bot--->
         try:
             sys.stdout = DEVNULL
