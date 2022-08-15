@@ -128,7 +128,7 @@ def botinfo():
     print(Fore.LIGHTBLUE_EX+'"ipup" - usage : ipup <ip>, returns info in chat about an ip (ex: ipup 1.1.1.1)')
     print(Fore.LIGHTBLUE_EX+'"pfp" - usage : pfp <@user>, returns profile pic of a user (ex: pfp @CodeSyncio#7302)')
     print(Fore.LIGHTBLUE_EX+'"purge" - usage : purge <purge amount>, deletes a given amount of msges (ex: purge 100)')
-    print(Fore.LIGHTBLUE_EX+'"loading" - usage : loading <what you are doing> <time in seconds>, shows a loading bar loading for the specified amount of time (ex: loading "downloading games" 120 )')
+    print(Fore.LIGHTBLUE_EX+'"loading" - usage : loading <action> <time in s>, shows a loading bar (ex: loading "eating" 120 )')
     print(Fore.MAGENTA+"press enter to return to main menu")
     ghinput = input()
     mainscrn()
