@@ -1,4 +1,5 @@
 import __main__
+from time import strftime
 from colorama import Fore
 from subprocess import DEVNULL,STDOUT
 import sys
@@ -102,7 +103,7 @@ def SelfBot(tokywoky,q):
                     await asyncio.sleep(1)
                     am = round((i+1)/sec*100/5)
                     am2 = round(20 -(i+1)/sec*100/5)
-                    await msg.edit(content='***'+object+'*** \n'+'['+am*'█'+am2*'▒'+']  ('+str(round((i+1)/sec*100))+'%)' )
+                    await msg.edit(content='***'+object+'*** \n'+'['+am*'█'+am2*'▒'+']  `'+str(round((i+1)/sec*100))+'%' +' - Remaining: '+str(sec-i-1)+' sec. `' )
                 await msg.edit(content='***'+object+'*** \n'+'[***DONE***]  ('+str(round((i+1)/sec*100))+'%)' )
             except:
                 pass
