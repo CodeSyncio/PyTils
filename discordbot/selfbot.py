@@ -61,8 +61,7 @@ def SelfBot(tokywoky,q):
         @bot.command()
         async def spam(ctx,msg,amount):
             await ctx.message.delete()
-            coroutforspamming = [ctx.send(msg)for i in range(int(amount))]
-            await asyncio.gather(*coroutforspamming)
+            await asyncio.gather(*[ctx.send(msg)for i in range(int(amount))])
         
         @bot.command()
         async def pfp(ctx, user: discord.User=None):
